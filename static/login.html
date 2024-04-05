@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/login.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" onchange="checkUsername()" required><br><br>
+        <div class="makeflex">
+            <label for="password">Password:</label>
+        </div>
+        <input type="password" id="password" name="password" onchange="checkPassword()" required><br><br>
+        <input type="submit" value="Login" onclick="clickBtn()">
+    </form>
+    <script src="./static/login.js"></script>
+
+</body>
+
+</html>
